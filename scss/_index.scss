@@ -1,0 +1,13 @@
+@mixin inicio ($marginl , $marginr) {
+
+            margin-left: $marginl;
+            margin-right: $marginr;
+    
+}
+
+
+
+.inicio{
+    @include inicio(0,0 )
+}
+

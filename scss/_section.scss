@@ -1,0 +1,56 @@
+h1 {
+    font-family: "Raleway", sans-serif ;
+    color: rgb(3, 70, 3);
+    border: 5px solid rgb(240, 240, 183);
+    padding-left: 20px;
+    margin: 20px;
+}
+
+section{
+    min-height: 100vh;
+    section:hover{
+        border: 2.8px inset rgb(3, 70, 3);
+    }
+    h2 {
+        font-family: "Raleway", sans-serif;
+        color: rgb(3, 70, 3);
+        margin-top: 44px;
+        margin-left: 20px;
+    }
+    div{
+
+        div{
+            img  {
+                
+                border: 5px solid rgb(3, 70, 3);
+                margin-top: 20px;
+                margin-left: 15px;
+                
+                
+
+            }
+            img:hover{
+                transform: scale(1.05);
+                transition-duration: 1s;
+            }
+        }
+        div{
+            
+            p {
+                padding-top: 40px;
+                margin-left: 20px;
+                margin-top: -20px;
+                margin-bottom: 10px;
+                font-family: "Raleway", sans-serif;
+            }
+            a{
+                    margin-left: 40px;
+                    border: 2px solid rgb(29, 99, 23);
+                    color: rgb(3, 70, 3);
+                    font-family: "Raleway", sans-serif;
+            }
+        }
+
+    }
+}
+
